@@ -303,6 +303,7 @@ ul{margin:0; padding:0; list-style:none}
 .map-dir{color:var(--gold); font-size:.85rem; text-decoration:underline}
 
 /* banner cookie */
+.cookie-banner[hidden]{display:none}   /* prevale su display:flex del desktop */
 .cookie-banner{position:fixed; left:50%; transform:translateX(-50%);
   bottom:calc(var(--sticky-h) + env(safe-area-inset-bottom) + 12px); z-index:80;
   width:calc(100% - 2*var(--s4)); max-width:640px;
